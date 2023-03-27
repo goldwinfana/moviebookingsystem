@@ -1,0 +1,19 @@
+Steps Taken
+1. Created Laravel using Composer
+2. Added breeze for build in templates and authentication using cmd: composer require laravel/breeze --dev
+3. I used xampp which is already installed in my computer to run phpmyadmin and created the db name on the browser
+4. I opened the evn file to configure my db
+5. Created migrations using php artisan make:migration
+6. Inside the migration i create tables and pre defined inserts statements
+7. I ran php artisan migrate to populate the tables and inserts on the db
+8. Created my controllers using php artisan make:controller
+9. Defined my route under web.app and grouped some under the middleware
+10. Created models using php artisan make:model and defined my table names
+
+The Tools used
+* Xampp (PHP 7.4.12/ MYSQLD 10.4.16-MariaDB)
+* GitBash
+* PHPStorm 2022.3.3
+* GitHub Repo
+* Laravel
+* JQuery / JavaScript/ Bootstrap / HTML/ CSS
